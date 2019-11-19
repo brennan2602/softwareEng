@@ -10,7 +10,7 @@ public class functionsTest {
 	public void test() 
 	{
 		Student s = new Student("Pete",20,"02/02/99");
-		assertEquals("Pete2",s.getUsername());
+		assertEquals("Pete20",s.getUsername());
 	}
 
 }
