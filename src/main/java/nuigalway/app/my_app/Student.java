@@ -10,7 +10,21 @@ this.name=name;
 this.age=age;
 this.DOB=DOB;
 }
+
 public String getName() {
 	return name;
 }
+
+public String getDOB() {
+	return DOB;
+}
+
+public int getAge() {
+	return age;
+}
+
+public String getUsername() {
+	return name+age;
+}
+
 }
