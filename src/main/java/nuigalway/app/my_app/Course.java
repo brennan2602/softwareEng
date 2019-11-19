@@ -8,6 +8,7 @@ public class Course {
 	private DateTime start;
 	private DateTime end;
 	
+	//Constructor 
 	public Course(ArrayList modules, ArrayList students, DateTime start, DateTime end,String name) {
 		this.modules = modules;
 		this.students = students;
@@ -15,7 +16,8 @@ public class Course {
 		this.end = end;
 		this.name = name;
 	}
-
+	
+	//getters and setters
 	public ArrayList getModules() {
 		return modules;
 	}

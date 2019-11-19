@@ -8,6 +8,7 @@ import java.util.ArrayList;
 	private String moduleName;
 	private String moduleID;
 	
+	//constructor
 	public Module(ArrayList students, ArrayList courses, String moduleName, String moduleID) {
 		this.students=students;
 		this.courses=courses;
@@ -15,6 +16,7 @@ import java.util.ArrayList;
 		this.moduleID=moduleID;
 	}
 	
+	//getters and setters
 	public ArrayList getStudents() {
 		return students;
 	}
