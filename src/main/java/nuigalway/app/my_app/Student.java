@@ -4,7 +4,8 @@ public class Student {
 	private String name;
 	private int age;
 	private String DOB;
-
+	
+	//constructor 
 	public Student(String name, int age, String DOB) 
 	{
 	this.name=name;
@@ -12,6 +13,7 @@ public class Student {
 	this.DOB=DOB;
 	}
 	
+	//getters and setters
 	public String getName() {
 		return name;
 	}
@@ -36,6 +38,7 @@ public class Student {
 		return age;
 	}
 	
+	//making a username by concatenating name and age variables
 	public String getUsername() {
 		return name+age;
 	}

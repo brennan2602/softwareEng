@@ -9,6 +9,8 @@ public class CourseTest {
 
 	@Test
 	public void test() {
+		
+		//setting up variables for course class
 		Student s = new Student("Pete",20,"02/02/99");
 		Student s1 = new Student("Gary",21,"02/04/98");
 		Student s2 = new Student("Tom",22,"23/03/97");
@@ -20,14 +22,17 @@ public class CourseTest {
 		modules.add("EE401");
 		DateTime start= new DateTime(2018,8,8,0,0);
 		DateTime end= new DateTime(2019,5,8,0,0);
-		System.out.println(start);
 		Course c = new Course(modules,students,start,end,"Engineering");
 		
+		//testing get methods
 		assertEquals(modules,c.getModules());
 		assertEquals(students,c.getStudents());
 		assertEquals(start,c.getStart());
 		assertEquals(end,c.getEnd());
 		assertEquals("Engineering",c.getName());
+		
+		
+		//using the set methods and then getting details from getters this check tests both setters/getters
 		
 		modules.add("CT401");
 		c.setModules(modules);
