@@ -10,4 +10,7 @@ this.name=name;
 this.age=age;
 this.DOB=DOB;
 }
+public String getName() {
+	return name;
+}
 }
